@@ -32,7 +32,31 @@ header {
   position: fixed;
   width: 100%;
 }
-#logo {
+header #logo {
   height: 150px;
   width: 150px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+header nav button {
+  background: #00a5e2;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+  display: block;
+  margin: 0 auto;
 }
