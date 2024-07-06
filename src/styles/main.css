@@ -27,6 +27,11 @@ button {
   cursor: pointer;
 }
 
+header {
+  background: #fff2e8;
+  position: fixed;
+  width: 100%;
+}
 #logo {
   height: 150px;
   width: 150px;
