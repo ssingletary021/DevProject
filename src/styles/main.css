@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 html,
@@ -77,4 +78,34 @@ header nav button {
   color: #333;
   font-weight: 600;
   font-size: 70px;
+}
+
+.stories {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.story-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.stories .story {
+  text-align: center;
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  border: 1px solid #00a5e2;
+}
+
+.stories .photo-credit {
+  color: #333;
+  font-size: 15px;
+  font-weight: semi-bold;
+}
+
+.stories p {
+  padding: 10px 30px;
 }
